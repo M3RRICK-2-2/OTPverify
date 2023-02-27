@@ -1,0 +1,43 @@
+body {
+  background-image: url('ABC.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1{
+    font-weight: bold;
+    }
+
+h2{
+    color: #8B0000;
+    font-weight: bold;
+    }
+
+hr{
+    border: 5px solid black;
+    border-radius: 5px;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    }
+
+p{
+    color: red;
+    }
+
+input{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    }
+
+label{
+    font-weight: bold;
+    text-align: center;
+    }
